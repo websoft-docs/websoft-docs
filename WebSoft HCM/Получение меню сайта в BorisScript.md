@@ -10,7 +10,7 @@ tools_web.get_menu_items(
 `menu_code` - Код меню
 `levels_to_show` - Вложенность меню?
 `show_desc` - ?
-`cache_period` - ?
+`cache_period` - Если указан не нулевое число (время в минутах), результат вычисления меню будет закеширован, иначе кеш использоваться не будет.
 
 ```
 type MenuItem = {
