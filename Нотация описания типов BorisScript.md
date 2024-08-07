@@ -1,3 +1,5 @@
+
+
 Примитивные типы:
 - `undefined`
 - `null`
@@ -6,4 +8,10 @@
 - `real`
 - `bool`
 
-==TODO: Доработать нотацию==
+Базовые объектные типы:
+- [`JsObject`](JsObject)
+- [`JsArray`](JsArray)
+- `XmlDoc`
+- `XmlElem`
+- `XmlMultiElem`
+
