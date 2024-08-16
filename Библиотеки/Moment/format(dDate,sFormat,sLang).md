@@ -1,24 +1,23 @@
-# `format(dDate,sFormat,sLang)`
 > Функция `format` предназначена для форматирования объекта  даты в строку согласно переданному формату и языку.
 
 **PROPS:**
-1) `dDate` ==BmObject\<Date\>== Объект даты
-2) `sFormat`==string== Строка формата даты. Например, `YYYY-MM-DD` (см. [[#Токены]])
-3) `?sLang="ru"` ==string== Язык, на котором нужно отформатировать дату:
+1) ==dDate== `BmObject<Date>` Объект даты
+2) ==sFormat== `string` Строка формата даты. Например, `YYYY-MM-DD` (см. [[#Токены]])
+3) ==?sLang="ru"== `string` Язык, на котором нужно отформатировать дату:
 	- `"ru"`  Русский 
 	- `"en"`  Английский
 	- `"uz"`  Узбекский
 	- `"kk"`  Казахский
 
 **RETURN:**
-- ==string==      Дата в соответствующем формате
+- `string`      Дата в соответствующем формате
 
 **EXAMPLES**
 ```javascript
-api.utils.moment.format(new Date(), 'MMMM',); //          --> "Август"
-api.utils.moment.format(new Date(), 'DD.MM.YYYY'); //     --> "15.08.2024"
-api.utils.moment.format(new Date(), 'DD MMMM YYYY'); //   --> "15 Августа 2024"
-ucell.utils.moment.format(new Date(), "ddd, DD MMMM"); // --> "Чт, 15 Августа"
+api.utils.moment.format(new Date(), 'MMMM'); //        --> "Август"
+api.utils.moment.format(new Date(), 'DD.MM.YYYY'); //   --> "15.08.2024"
+api.utils.moment.format(new Date(), 'DD MMMM YYYY'); // --> "15 Августа 2024"
+api.utils.moment.format(new Date(), "ddd, DD MMMM"); // --> "Чт, 15 Августа"
 ```
 
 ---
