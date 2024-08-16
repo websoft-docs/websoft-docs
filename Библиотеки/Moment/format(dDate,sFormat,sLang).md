@@ -14,7 +14,7 @@
 
 **EXAMPLES**
 ```javascript
-api.utils.moment.format(new Date(), 'MMMM', curLng.short.id); // "Август"
+api.utils.moment.format(new Date(), 'MMMM', curLng.short_id); // "Август"
 api.utils.moment.format(new Date(), 'DD.MM.YYYY', 'ru'); //      "15.08.2024"
 api.utils.moment.format(new Date(), 'DD MMMM YYYY'); //          "15 Августа 2024"
 api.utils.moment.format(new Date(), 'ddd, DD MMMM'); //          "Чт, 15 Августа"
