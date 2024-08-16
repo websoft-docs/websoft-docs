@@ -14,10 +14,10 @@
 
 **EXAMPLES**
 ```javascript
-api.utils.moment.format(new Date(), 'MMMM'); //        --> "Август"
-api.utils.moment.format(new Date(), 'DD.MM.YYYY'); //   --> "15.08.2024"
-api.utils.moment.format(new Date(), 'DD MMMM YYYY'); // --> "15 Августа 2024"
-api.utils.moment.format(new Date(), "ddd, DD MMMM"); // --> "Чт, 15 Августа"
+api.utils.moment.format(new Date(), 'MMMM', curLng.short.id); // "Август"
+api.utils.moment.format(new Date(), 'DD.MM.YYYY', 'ru'); //      "15.08.2024"
+api.utils.moment.format(new Date(), 'DD MMMM YYYY'); //          "15 Августа 2024"
+api.utils.moment.format(new Date(), 'ddd, DD MMMM'); //          "Чт, 15 Августа"
 ```
 
 ---
@@ -56,7 +56,7 @@ api.utils.moment.format(new Date(), "ddd, DD MMMM"); // --> "Чт, 15 Авгус
 | `HH`      | Часы в 24-часовом формате с ведущим нулём               | 00 01 ... 22 23                   |
 | `H`       | Часы в 24-часовом формате без нуля                      | 0 1 ... 22 23                     |
 | `kk`      | Часы в 24-часовом формате с ведущим нулём (24 вместо 0) | 01 02 ... 23 24                   |
-| `k`       | ЧЧасы в 24-часовом формате без нуля (24 вместо 0)       | 1 2 ... 23 24                     |
+| `k`       | Часы в 24-часовом формате без нуля (24 вместо 0)        | 1 2 ... 23 24                     |
 | `hh`      | Часы в 12-часовом формате с ведущим нулём               | 01 02 ... 11 12                   |
 | `h`       | Часы в 12-часовом формате без нуля                      | 1 2 ... 11 12                     |
 #### Форматирование минут
