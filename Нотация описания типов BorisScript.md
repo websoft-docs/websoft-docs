@@ -1,16 +1,15 @@
 
-
 Примитивные типы:
 - `undefined`
 - `null`
-- `string`
+- [`string`](string.md)
 - `integer`
 - `real`
 - `bool`
 
 Базовые объектные типы:
-- [`JsObject`](JsObject)
-- [`JsArray`](JsArray)
+- [`JsObject`](JsObject.md)
+- [`JsArray`](JsArray.md)
 - `XmlDoc`
 - `XmlElem`
 - `XmlMultiElem`

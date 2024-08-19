@@ -26,7 +26,7 @@ var obj = {
 ```
 JsObject.AddProperty(
 	key: string,
-	value: any|undefined,
+	value: any,
 ): undefined
 ```
 Смотреть [[#SetProperty()]].
@@ -37,8 +37,8 @@ JsObject.AddProperty(
 ```
 JsObject.GetOptProperty(
 	key: string,
-	defaultValue: any|undefined = undefined,
-): any|undefined
+	defaultValue: any = undefined,
+): any
 ```
 Смотреть [[#GetProperty()]].
 
@@ -50,7 +50,7 @@ JsObject.GetOptProperty(
 @throws 
 JsObject.GetOptProperty(
 	key: string
-): any|undefined
+): any
 ```
 Смотреть [[#GetOptProperty()]].
 
@@ -69,7 +69,7 @@ JsObject.GetOptProperty(
 ```
 JsObject.SetProperty(
 	key: string,
-	value: any|undefined,
+	value: any,
 ): undefined
 ```
 Смотреть [[#AddProperty()]].
