@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with: 
-          repository: wracce/websoft-docs-page
+          repository: websoft-docs/websoft-docs-page
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           submodules: true
 
